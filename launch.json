@@ -1,0 +1,19 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Run Laundry Raylib GUI",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/outputs/laundry_management_gui.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}/outputs",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "miDebuggerPath": "C:/raylib/w64devkit/bin/gdb.exe",
+            "preLaunchTask": "build raylib laundry GUI"
+        }
+    ]
+}
